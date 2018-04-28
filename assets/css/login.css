@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7F7F7;
+    overflow: hidden ;
+    font-family: 'Cairo', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+
+.content .login{
+    width: 29% ;
+    border-radius: 0.225em ;
+    background-color: #fff;
+    max-height: .1em ;
+    margin: 0.025em auto ;
+    overflow: hidden ;
+    color: #444444 ;
+    box-shadow: 1px 1px 1px rgba(20,20,20, 0.2);
+    margin-top: 60px !important;
+}
+
+div.header-login h4 {
+    padding: 0.25em 1em;
+}
+.input-group .form-control, .input-group-addon, .input-group-btn{
+    background-color: #F7F7F7 ;
+}
+.content .login .header-login{
+    width: 100% ;
+    margin-top: 0.425em;
+    padding: 1em 0 0.225em;
+    text-align: center ;
+    color: #212020 ;
+}
+.content .login .img-log img{
+    width: 34%;
+    margin: 0.475em auto;
+    border-radius: 50%;
+    display: block;
+}
+.content .login i{
+    color: rgba(20,50,100, 0.8);
+}
+.content .login .input-group-addon{
+    background-color: #fff ;
+}
+
+.content .login form > div
+{
+    margin: 0.925em auto ;
+    width: 80% ;
+}
+.content .sub-log{
+    background-color:  #17a2b8;
+    color: #fff ;
+    width: 100%;
+}
+.content form button{
+    margin:0.825em 0 1.125em;
+    /*border-radius: 0 !important;*/
+}
+
+.content form button:hover{
+    cursor: pointer;
+    background-color: #0c5460;
+}
+div.input-group input {
+    text-align: left;
+    outline: none;
+}
+
+.input-group .form-control,
+.content .sub-log {
+    font-family: 'Cairo', sans-serif;
+}
+
+
+/********************************* Messages ***********************************/
+
+
+div.my-alert {
+    padding: 0.25em 0.625em 0.35em;
+    color: #FFF;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 1px;
+}
+div.my-alert p {
+    padding: 0;
+    margin: 0;
+}
+div.my-alert p span {
+    position: absolute ;
+    top: 5px ;
+    right: 20px ;
+}
+div.my-alert p span:hover {
+    cursor: pointer;
+}
+
+div.t1 {
+    background-color: seagreen;
+}
+
+div.t2 {
+    background: firebrick;
+}
+
+div.t3 {
+    background-color: #fd7e14;
+}
+
+div.t4 {
+    background-color: #17a2b8;
+}
+
+
+div.no-margin {
+    padding: 0 !important;
+    margin: 0 !important;
+}
