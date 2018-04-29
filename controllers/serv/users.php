@@ -25,14 +25,17 @@ class Users extends AbstractController
         $user->Email = $email;
         $user->Password = $password;
         $user->Status = $status;
+        $user->Code = $code;
 
         $json = new \stdClass();
 
         if ($user->save()) {
             $json->result = "1";
+            $json->user = $user ;
         } else {
             $json->result = "0";
         }
+
 
         echo json_encode($json);
 

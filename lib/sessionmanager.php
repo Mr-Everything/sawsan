@@ -11,7 +11,7 @@ class SessionManager extends \SessionHandler
     private $sessionHTTPOnly = true;
     private $sessionPath = '/';
     private $sessionSavePath = SESSION_SAVE_PATH;
-    private $sessionDomain = '.sawsan.com';
+    private $sessionDomain = '.every-joker.cba.pl';
 
     private $ttl = 30 ; // time to leave .
 
